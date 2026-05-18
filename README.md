@@ -1,1 +1,4 @@
 初学者学习CNN最基本的pytorch代码
+model:两层卷积，两层池化，两层BN以及relu,后进行dropout 在进行全连接
+dataset: 目前使用最简单的channel=1的数字集 MNIST
+train:包括训练、验证、测试，以及收敛可视化。最后利用sklearn中的classfication_report和confusion_matrix进行评测
